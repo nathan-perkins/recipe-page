@@ -30,6 +30,30 @@
     font-weight: 700;
 }
 
+@media (max-width: 504px) {
+    .container {
+        width: 100% !important;
+        padding: 0 0 2rem 0 !important;
+
+        border-radius: 0 !important;
+    }
+
+    .header__img {
+        border-radius: 0 !important;
+    }
+
+    .header__title,
+    .header__text,
+    main {
+        padding: 0 2rem !important;
+    }
+
+    .aside {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
 :root {
 
     /* colors */
@@ -144,8 +168,11 @@ img {
     }
 }
 
+/* end of reset */
+
 .container {
-    width: 46rem;
+    width: calc(100% - 4.75rem);
+    max-width: 46rem;
     padding: 2.5rem;
     background-color: var(--clr-neutral-100);
 
