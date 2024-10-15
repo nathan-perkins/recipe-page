@@ -174,6 +174,7 @@ img {
     width: calc(100% - 4.75rem);
     max-width: 46rem;
     padding: 2.5rem;
+    margin: 8rem 0;
     background-color: var(--clr-neutral-100);
 
     border-radius: 1.5rem;
@@ -334,4 +335,10 @@ img {
 
 .table__row:last-of-type .table__data {
     padding-bottom: 0 !important;
+}
+
+.extra-space {
+    background-color: var(--clr-stone-100);
+    height: 8rem;
+    width: 100vw;
 }
